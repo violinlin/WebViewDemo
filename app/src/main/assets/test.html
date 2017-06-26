@@ -1,0 +1,21 @@
+<script type="text/javascript">
+
+    function showToastMessage() {
+        window.android.showToastMessage(text)
+    }
+    function alertMessage(message){
+        alert(message)
+    }
+var text="js 调用 Java";
+</script>
+<h1 style="text-align:center;font-size:25px">WebView JS 交互 </h1>
+<button type="button" onclick="showToastMessage()">js 调用 Android</button>
+<br/>
+<style>
+button{
+    width:300px;
+    height:50px;
+   font-size:20px
+}
+</style>
+</html>
